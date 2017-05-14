@@ -1,0 +1,15 @@
+#### 下面是 build.bat 自动生成的配置信息! #### 
+ 
+ 
+#### 为 fat32 文件格式的 U盘启动 #### 
+..\..\common\boot,0,c.img,63,1 
+..\..\common\setup,0,c.img,1,60 
+..\..\common\long,0,c.img,256,200 
+ 
+#### 写入 floppy 盘映像 #### 
+..\..\common\boot,0,demo.img,0,1 
+..\..\common\setup,0,demo.img,1,60 
+..\..\common\long,0,demo.img,256,200 
+ 
+#### 写入 u 盘 #### 
+c.img,0,\\.\g:,0,600 
